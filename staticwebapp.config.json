@@ -50,9 +50,8 @@
         "rewrite": "/calendar.html"
       },
       {
-        "route": "/specials",
-        "redirect": "/deals",
-        "statusCode": 301
+        "route": "*",
+        "redirect": "/404.html"
       }
     ],
     "navigationFallback": {
