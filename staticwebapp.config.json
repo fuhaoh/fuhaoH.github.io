@@ -18,7 +18,12 @@
       {
         "route": "/login",
         "rewrite": "/login/index.html"
+      },
+      {
+        "route": "/*",
+        "rewrite": "/404.html"
       }
+
     ],
     "navigationFallback": {
       "rewrite": "index.html",
@@ -27,10 +32,6 @@
     "responseOverrides": {
       "400": {
         "rewrite": "/400.html"
-      },
-
-      "404": {
-        "rewrite": "/404.html"
       }
     },
     "globalHeaders": {
